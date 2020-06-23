@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">grabnow Deleviry</string>
+    <string name="ok">Ok</string>
+    <string name="country_code">Country Code</string>
+    <string name="login">Login</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pass_hint">Password (minimum 4 character)</string>
+    <string name="view">View</string>
+    <string name="ongoing_order">Ongoing Order</string>
+    <string name="past_orders">Past Orders</string>
+    <string name="no_order_assign_yet">No Order assign yet</string>
+    <string name="order_number">Order number</string>
+    <string name="order_detail">Order Details</string>
+    <string name="order_numbers">Order numbers</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="building_no">Building No</string>
+    <string name="floor_no">Floor No</string>
+    <string name="apt_no">Apartment No</string>
+    <string name="direction">Direction</string>
+    <string name="deliver_order">Deliver Order</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="del_msg">Are you verify all detail.\nIf yes then deliver</string>
+    <string name="deliver">deliver</string>
+    <string name="error_msg">Something went wrong Please try again !</string>
+    <string name="msg_susscess">Order delivered successfully !</string>
+    <string name="call">Call</string>
+</resources>

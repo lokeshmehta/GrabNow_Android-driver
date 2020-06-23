@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OrderDetail">
+
+    <include layout="@layout/toolbar_login" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/edt_bg"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/pad_5"
+                android:background="@color/white"
+                android:outlineSpotShadowColor="@color/colorPrimary"
+                app:cardCornerRadius="@dimen/pad_10"
+                app:cardElevation="@dimen/pad_5">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/pad_3">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_order"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/pad_5"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pad_3"
+                        android:visibility="visible">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/pad_75"
+
+                            android:layout_height="@dimen/pad_75">
+
+                            <ImageView
+                                android:id="@+id/img_product"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_my_order" />
+
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/txt_order_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/pad_2"
+                                android:text="@string/order_numbers"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/txt_12" />
+
+                            <TextView
+                                android:id="@+id/txt_customer_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/pad_2"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/txt_12" />
+
+                            <TextView
+                                android:id="@+id/txt_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/pad_2"
+
+                                android:textSize="@dimen/txt_12" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn_direction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pad_5"
+                        android:outlineSpotShadowColor="@color/colorPrimary"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardCornerRadius="@dimen/pad_10"
+                        app:cardElevation="@dimen/pad_5">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="center"
+                            android:background="@color/colorPrimary"
+                            android:drawableLeft="@drawable/ic_direction"
+                            android:gravity="center"
+                            android:padding="@dimen/pad_3"
+                            android:text="Get direction"
+                            android:textColor="@color/white" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:id="@+id/txt_note"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pad_4"
+                        android:padding="@dimen/pad_2"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/txt_14" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_products"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pad_5"
+                        android:nestedScrollingEnabled="false" />
+
+
+                    <Button
+                        android:id="@+id/btn_deliver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/pad_5"
+                        android:layout_marginTop="@dimen/pad_10"
+                        android:letterSpacing="0"
+                        android:padding="@dimen/pad_15"
+                        android:stateListAnimator="@null"
+                        android:text="@string/deliver_order"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/txt_16" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

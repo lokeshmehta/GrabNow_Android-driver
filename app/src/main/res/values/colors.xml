@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1058AE</color>
+    <color name="colorPrimaryDark">#073160</color>
+    <color name="colorAccent">#F8BD45</color>
+    <color name="edt_bg">#EFF2F6</color>
+    <color name="col_txt_intro">#005eb2</color>
+    <color name="col_tc">#3B99ED</color>
+    <color name="ref_color">#8FC3F1</color>
+
+    <color name="txt_color">#939CA5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="txt_color_item">#565A5E</color>
+    <color name="red">#d32f2f</color>
+
+
+    <color name="yellow_middle">#ffee58</color>
+    <color name="yellow_end">#7ae7de83</color>
+    <color name="window_bg">#F3F4F5</color>
+    <color name="yello">#ffbb00</color>
+    <color name="color_add_bg">#F7BB44</color>
+</resources>

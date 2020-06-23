@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917936627714",
+    "firebase_url": "https://grabnow-deleviry.firebaseio.com",
+    "project_id": "grabnow-deleviry",
+    "storage_bucket": "grabnow-deleviry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917936627714:android:d3b025d38a5356c0b9c71b",
+        "android_client_info": {
+          "package_name": "com.eysisgmbh.grabnowdeleviry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917936627714-flrro9lta3h7iv6eld5j40mt0a3k7faf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eysisgmbh.grabnowdeleviry",
+            "certificate_hash": "2049546fe28bf435728724a7d195bbed0e57003c"
+          }
+        },
+        {
+          "client_id": "917936627714-qdlv2o3cpp265b41ikeannl4s01cvmnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQona_17q8YrTsvPcMQid0f1qoX3X0qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917936627714-qdlv2o3cpp265b41ikeannl4s01cvmnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
